@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Placa do Brechó</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Fredoka:wght@600;700&family=Abril+Fatface&family=Karla:wght@400;600;700&display=swap">
+<style>
+/* Layout: uma coluna; cada placa aparece sobre a cor de parede sugerida */
+:root{--bg:#F7F5F2;--card:#FFFFFF;--fg:#1E2230;--muted:#6E7383;--line:#E4E0DA;--accent:#D9560F;
+--display:"Fraunces",Georgia,serif;--body:"Karla",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15161B;--card:#1D1F26;--fg:#ECEAE4;--muted:#9EA2AE;--line:#2D303A;--accent:#FF8A47;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15161B;--card:#1D1F26;--fg:#ECEAE4;--muted:#9EA2AE;--line:#2D303A;--accent:#FF8A47;color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:17px;line-height:1.55}
+main{max-width:980px;margin:0 auto;padding-block:48px 72px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:grid;gap:56px}
+.eyebrow{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:700}
+h1{font-family:var(--display);font-weight:600;font-size:clamp(34px,6vw,54px);line-height:1.05;margin:8px 0 12px;text-wrap:balance}
+h2{font-family:var(--display);font-weight:600;font-size:28px;margin:0 0 16px}
+h3{font-family:var(--display);font-weight:600;font-size:26px;margin:0}
+.lead{max-width:62ch;color:var(--muted);margin:0}
+.facts{display:flex;flex-wrap:wrap;gap:10px;list-style:none;padding:0;margin:16px 0 0}
+.facts li{border:1px solid var(--line);background:var(--card);border-radius:999px;padding:5px 14px;font-size:15px}
+.ops{display:grid;gap:28px}
+.op{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:24px;display:grid;gap:14px;min-width:0}
+.op header{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.vibe{font-size:13px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;color:var(--accent)}
+.facade{padding:7% 6% 9%;border-radius:4px}
+.sign svg{width:100%;height:auto;display:block;box-shadow:0 6px 18px rgba(0,0,0,.18)}
+.wall{margin:0;font-size:14px;color:var(--muted)}
+dl{margin:0;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+dl div{min-width:0}
+dt{font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+dd{margin:4px 0 0}
+.cortes{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.cortes figure{margin:0;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:18px;min-width:0}
+.cortes svg{width:100%;height:auto;display:block}
+figcaption{font-weight:700;margin-bottom:6px}
+figcaption span{display:block;font-weight:400;color:var(--muted);font-size:15px}
+ul.plain,ol.plain{margin:0;padding-left:20px;display:grid;gap:10px}
+.muted{color:var(--muted);font-size:15px}
+@media (max-width:700px){dl,.cortes{grid-template-columns:1fr}.op{padding:16px}}
+</style>
+</head><body style="margin:0">
+<main>
+<header>
+  <div class="eyebrow">Rascunho 2 · 16/11/2026</div>
+  <h1>Brechó da Salete: nome e placa</h1>
+  <p class="lead">Peça escolhida com cuidado, a preço de brechó. Placa amigável, sem cara de loja cara. Laranja em todas, porque ela gosta.</p>
+  <ul class="facts"><li>Cajuru, rua de comércio</li><li>Moda feminina</li><li>Mulheres de 30 a 50</li><li>Peças de R$ 10 a 20</li><li>Placa 3,20 × 1,25 m</li></ul>
+</header>
+
+<section>
+  <h2>Três nomes, três placas</h2>
+  <div class="ops"><article class="op">
+  <header><h3>Seleta</h3><span class="vibe">Curadoria</span></header>
+  <div class="facade" style="background:#EFE6D8"><div class="sign"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 1250" role="img"><rect width="3200" height="1250" fill="#F26A1B"/><g fill="none" stroke="#FFF4E6" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"><path d="M1600 270 v-25 c45 -15 55 -45 30 -65 c-25 -20 -60 -5 -60 20"/><path d="M1600 270 L1790 400 L1410 400 Z"/></g><text x="1600" y="830" text-anchor="middle" font-family="Fraunces" font-weight="600" font-size="480" fill="#FFF4E6">seleta</text><text x="1600" y="1060" text-anchor="middle" font-family="Karla" font-weight="700" font-size="95" letter-spacing="28" fill="#FFF4E6">BRECHÓ · MODA FEMININA</text></svg></div></div>
+  <p class="wall">Parede sugerida: areia</p>
+  <dl><div><dt>A favor</dt><dd>Quer dizer escolhida, e tem as mesmas letras de Salete. O nome dela está ali, escondido.</dd></div><div><dt>Cuidado</dt><dd>Precisa checar se já existe em Curitiba.</dd></div></dl>
+</article><article class="op">
+  <header><h3>A Dedo</h3><span class="vibe">Cuidado</span></header>
+  <div class="facade" style="background:#F26A1B"><div class="sign"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 1250" role="img"><rect width="3200" height="1250" fill="#FFF4E6"/><rect y="1170" width="3200" height="80" fill="#F26A1B"/><g fill="none" stroke="#F26A1B" stroke-width="26" stroke-linecap="round"><ellipse cx="600" cy="610" rx="50" ry="64"/><ellipse cx="600" cy="610" rx="102" ry="131" stroke-dasharray="572 161" stroke-dashoffset="73"/><ellipse cx="600" cy="610" rx="154" ry="197" stroke-dasharray="864 244" stroke-dashoffset="221"/><ellipse cx="600" cy="610" rx="206" ry="264" stroke-dasharray="1155 326" stroke-dashoffset="444"/><ellipse cx="600" cy="610" rx="258" ry="330" stroke-dasharray="1447 408" stroke-dashoffset="742"/></g><text x="1000" y="700" font-family="Fredoka" font-weight="700" font-size="470" fill="#F26A1B">a dedo</text><text x="1012" y="900" font-family="Karla" font-weight="700" font-size="130" letter-spacing="40" fill="#3B2316">BRECHÓ</text><text x="1014" y="1040" font-family="Karla" font-weight="600" font-size="84" fill="#3B2316">cada peça escolhida a dedo</text></svg></div></div>
+  <p class="wall">Parede sugerida: laranja</p>
+  <dl><div><dt>A favor</dt><dd>Todo mundo conhece “escolhido a dedo”. Fala do que ela faz, de um jeito simpático.</dd></div><div><dt>Cuidado</dt><dd>Fachada toda laranja chama muito. Combinar com o arquiteto.</dd></div></dl>
+</article><article class="op">
+  <header><h3>Bem Achado</h3><span class="vibe">Garimpo</span></header>
+  <div class="facade" style="background:#E9E8E4"><div class="sign"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3200 1250" role="img"><rect width="3200" height="1250" fill="#1F2A44"/><rect x="70" y="70" width="3060" height="1110" fill="none" stroke="#F26A1B" stroke-width="8"/><g transform="translate(250 470) rotate(-9)"><path d="M110 170 C 40 60, -40 -40, -90 -150" fill="none" stroke="#FFF4E6" stroke-width="6"/><path d="M0 170 L120 0 L620 0 L620 340 L120 340 Z" fill="#F26A1B"/><circle cx="110" cy="170" r="26" fill="#1F2A44"/><text x="390" y="214" text-anchor="middle" font-family="Abril Fatface" font-size="116" fill="#1F2A44">brechó</text></g><text x="1000" y="700" font-family="Abril Fatface" font-size="360" fill="#FFF4E6">Bem Achado</text><text x="1008" y="900" font-family="Karla" font-weight="600" font-size="92" letter-spacing="4" fill="#F26A1B">moda feminina garimpada</text></svg></div></div>
+  <p class="wall">Parede sugerida: branco gelo</p>
+  <dl><div><dt>A favor</dt><dd>Conta que ela garimpa. A etiqueta laranja vira o símbolo da loja.</dd></div><div><dt>Cuidado</dt><dd>Nome mais comum. Precisa checar se já existe.</dd></div></dl>
+</article></div>
+  <p class="muted">Vitrine: adesivo “peças a partir de R$ 10”. Barato, troca fácil, e a placa fica limpa.</p>
+</section>
+
+<section>
+  <h2>Pro arquiteto opinar</h2>
+  <ul class="plain">
+    <li>Qual placa conversa melhor com a fachada e a cor da parede?</li>
+    <li>Placa em lona com estrutura ou ACM: qual vale mais o custo?</li>
+  </ul>
+</section>
+</main>
+</body></html>
